@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
+import QuotePage from './pages/QuotePage'
+import ProductPage from './pages/ProductPage'
 
 export default function App() {
   return (
@@ -12,6 +14,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/quote" element={<QuotePage />} />
+          <Route path="/products/:modelName" element={<ProductPage />} />
         </Routes>
       </main>
     </BrowserRouter>

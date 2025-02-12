@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function ProductMiniCard({ category, model, details, link, imageUrl }) {
+export default function ProductMiniCard({ category, model, details, imageUrl }) {
   return (
     <div className="flex-1 border-2 border-brand mx-2 flex flex-col items-center h-[28rem]">
       <div className="w-full p-4">
@@ -18,7 +18,7 @@ export default function ProductMiniCard({ category, model, details, link, imageU
           <p className="font-bold">{details}</p>
         </div>
         <Link 
-          to={link} 
+          to={`/products/${model}`} 
           className="bg-brand text-white px-6 py-2 rounded-md hover:underline transition-colors"
         >
           VIEW PRODUCT

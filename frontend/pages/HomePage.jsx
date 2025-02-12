@@ -41,28 +41,24 @@ export default function HomePage() {
           category="Self-Regulating Heating Cable"
           model="XHU"
           details="Up to 200˚C"
-          link="products/XHU"
           imageUrl={xhuImage}
         />
         <ProductMiniCard
           category="Self-Regulating Heating Cable"
           model="XHK"
           details="Up to 250˚C"
-          link="products/XHK"
           imageUrl={xhkImage}
         />
         <ProductMiniCard
           category="System Components"
           model="PJB100M"
           details="Power Connection Kit with Mutiple Entries"
-          link="components/PJB100M"
           imageUrl={pjb100mImage}
         />
         <ProductMiniCard
           category="Installation Accessories"
           model="FT-H98"
           details="Fiberglass Fixing Tape For High temperature"
-          link="accessories/FT-H98"
           imageUrl={fiberglassTapeImage}
         />
       </div>
@@ -74,28 +70,24 @@ export default function HomePage() {
           category="System Components"
           model="PJB300"
           details="End Seal and In-line Splice"
-          link="components/PJB300"
           imageUrl={pjb300Image}
         />
         <ProductMiniCard
           category="System Components"
           model="PJB300-L"
           details="Lighted End Seal"
-          link="components/PJB300-L"
           imageUrl={pjb300LImage}
         />
         <ProductMiniCard
           category="Installation Accessories"
           model="PS-SS"
           details="SS304 Pipe Strap"
-          link="accessories/PS-SS"
           imageUrl={psSSImage}
         />
         <ProductMiniCard
           category="Installation Accessories"
           model="AT-L164"
           details="Aluminum Foil Fixing Tape"
-          link="accessories/AT-L164"
           imageUrl={aluminumFoilImage}
         />
       </div>
